@@ -30,8 +30,22 @@ A picture of the entire waveform can be seen below
 ![alt text](http://i58.tinypic.com/rlazxs.png)
 
 The picture below is of the waveform at line 66
+
+![alt text](http://i59.tinypic.com/1hp4q8.png)
+
 The picture below is of the waveform at line 276
+
+![alt text](http://i62.tinypic.com/2rm6p0k.png)
+
 The picture below is of the waveform at line 288
+
+![alt text](http://i62.tinypic.com/vqnz1k.png)
+
 The picture below is of the waveform at line 294
+
+![alt text](http://i60.tinypic.com/24m9wg9.png)
+
 The picture below is of the waveform when a reset occurs
+
+![alt text](http://i62.tinypic.com/2yv1hfa.png)
 
