@@ -125,15 +125,15 @@ Box:
        push   r13
        mov           r10, r12                   ; copies the Y position into r12
        mov           r11, r13                   ; copies the X position into r13
-       call   #setAddress                ; set the address of the box position
-       mov    #0x08, r8                  ; set the width of the box
+       call   #setAddress             			; sets the address of the box position
+       mov    #0x08, r8              		    ; sets the width of the box
 
 draw:
        mov           #NOKIA_DATA, r12
-       mov           #0xFF, r13                 ; draw an 8 pixel vertical bar
-       call   #writeNokiaByte            ; draws the pixels
-       dec           r8                                ; decrement the counter
-       jnz           draw                 ;keep drawing until we finish all 8 bars
+       mov           #0xFF, r13                 ; draw 8 pixel bar
+       call   #writeNokiaByte         			; draws the bar
+       dec           r8
+       jnz           draw                 		; keep drawing until all 8 bars are finished
        pop           r13
        pop           r12
 
