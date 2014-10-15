@@ -45,7 +45,35 @@ The picture below is of the waveform at line 294
 
 ![alt text](http://i60.tinypic.com/24m9wg9.png)
 
-The picture below is of the waveform when a reset occurs
+The picture below is of the waveform when a reset occurs. The reset took about 19.4 ms
 
 ![alt text](http://i62.tinypic.com/2yv1hfa.png)
+
+###Writing Modes
+
+![alt text](http://i60.tinypic.com/35mr0pw.png)
+
+###Required Functionality
+
+![alt text](http://i58.tinypic.com/ige1xe.png)
+
+The code above was where most of the changes were made to the original code in order to get required functionality. The code essentially took the original code that drew a broken line, filled the line in, and then ended up looping itself to draw the line 8 more times.
+
+###A Functionality
+
+![alt text](http://i61.tinypic.com/24vv4eo.png)
+
+The above code is an example  of the 4 different checks that were in place to determine the direction of a button. Left would check for a left button press, and the check for a right buton press if a left press was not there. The right press in turn would check for a up press, the up press would then check for a down, and the down would check for left again. This cycle would keep running to determine the direction of a button that was pressed, and would then move the box in the said direction by deleting the box and drawing a new one. The constant LEFTB was defined along with the rest (UPB, DOWNB, RIGHTB) in the beginning of the program as .equ statements.
+
+###Debugging
+
+Most of my problems were with syntax. I did not always put the '#' sign in front of my subroutines/constants. I also tended to forget which case of the labels to put down, e.g. left instead of Left. Other than the syntax errors, the biggest challenge was learning how to increment and decrement the column and row registers.
+
+###Documentation
+
+For the Prelab, C2C Leaf, Thompson, and I worked together to try understanding the booklets and we would usually talk about our best guess for what some of the values meant. 
+
+For the Lab, C2C Leaf helped explain to me that the Lab was more about understanding the code rather than trying to start rewriting the whole Nokia code. He also reminded me that for required functionality, you only need to make a small change to the already present code.
+
+C2C Thompson and Terragnoli helped explain how the logic analyzer worked. C2C Thompson in further detail recommended that for checking button presses I should have a 4 way check that loops into itself. He also helped me out with the counters for the rows
 
