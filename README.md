@@ -11,6 +11,8 @@ The different charts in the Prelab were filled out below by referencing the seve
 
 The waveform of the different signals can be seen in a rough sketch provided below.
 
+![alt text](http://i59.tinypic.com/qpkx85.jpg)
+
 ###Lab
 
 To do the logic analyzer portion of the lab, the following setup, provided from the lab instructions were used below.
